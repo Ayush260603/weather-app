@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card{
+    font-family: 'Raleway', sans-serif;;
+    height:100vh;
+    width: 100%;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    text-align: center;
+    }
+    .search{
+        width: 75rem;
+        margin: auto;
+    }
+
+    .search input{
+        border-radius: 20rem;
+        font-size: 18px;
+        padding: 5px;
+        text-align: center;
+        border: none;
+        margin-top: 5rem;
+        box-shadow: 5px 5px 5px black;
+        outline: none;
+        height: 3.5rem;
+        width: 25rem;
+    }
+     .searchbtn{
+        border-radius: 70%;
+        padding: 6px;
+        border: none;
+        box-shadow: 2px 3px 3px black;
+        cursor: pointer;
+        height: 3rem;
+        width: 5rem;
+        
+     }
+     .searchbtn img{
+        width: 20px;
+        
+     }
+
+     .weather{
+        /* border: 3px solid red; */
+        margin: 5rem;
+     }
+     .weather img{
+        width:5rem;
+
+     }
+     h1{
+       margin: 1rem 0px;  
+       color: white;
+        
+         padding: 6px;
+     }
+     h1:hover{
+        text-shadow: 1px 2px 3px black;
+     }
+
+     .additionalinfo{
+        display: flex;
+        justify-content: space-evenly;
+     }
+     .humidpercent{
+        position: absolute;
+        margin-top: -0.rem;
+        font-weight: 900;
+        font-size: x-large;
+        margin-left: 10px;
+        color:white;
+     }
+     .speedvalue{
+        position: absolute;
+        margin-top: -0.rem;
+        font-weight: 900;
+        font-size: x-large;
+        margin-left: 10px;
+        color:white;
+
+     }
+     p{
+        
+        position: absolute;
+        margin: -1.5rem 4.5rem;
+        font-weight: 700;
+        font-size:large ;
+        color: white;
+     }
+     span:hover,p:hover{
+        text-shadow: 1px 1px 2px black;
+     }
+     .location{
+      position: absolute;
+     }
+     .location img{
+      width:2.5rem;
+      filter: invert(10%);
+      margin-top: 5px;
+     }
+     .citylocation{
+     position: absolute;
+     top:15px;
+     color: white;
+     font-weight: 900;
+     font-size: large;
+     }
