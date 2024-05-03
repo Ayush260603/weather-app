@@ -95,7 +95,9 @@
         text-shadow: 1px 1px 2px black;
      }
      .location{
-      position: absolute;
+      position: flex;
+      border: 3px solid red;
+      width: 20vw;
      }
      .location img{
       width:2.5rem;
@@ -105,7 +107,7 @@
      .citylocation{
      position: absolute;
      top:1 rem;
-     left:2.5 rem;
+     left:3.5 rem;
      color: white;
      font-weight: 900;
      font-size: large;
@@ -113,3 +115,7 @@
      height:1.5rem;
      text-align: left;
      }
+.imagediv{
+      /* border: 3px solid green; */
+      width: 3.5rem;
+    }
