@@ -104,8 +104,12 @@
      }
      .citylocation{
      position: absolute;
-     top:15px;
+     top:1 rem;
+     left:2.5 rem;
      color: white;
      font-weight: 900;
      font-size: large;
+     width:10rem;
+     height:1.5rem;
+     text-align: left;
      }
