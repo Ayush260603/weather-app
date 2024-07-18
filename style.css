@@ -96,7 +96,6 @@
      }
      .location{
       position: flex;
-      border: 3px solid red;
       width: 20vw;
      }
      .location img{
